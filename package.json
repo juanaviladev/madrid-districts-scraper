@@ -1,0 +1,15 @@
+{
+  "name": "madrid-street-crawler",
+  "version": "1.0.0",
+  "description": "A node crawler that generates a SQL file with postal codes and districts of Madrid",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsdom": "^15.2.1"
+  }
+}
