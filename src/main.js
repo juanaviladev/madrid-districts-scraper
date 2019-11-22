@@ -11,7 +11,7 @@ function findFirstParent(district,tagName) {
 }
 
 async function main() {
-    let page = await JSDOM.fromURL('http://www.distritosdemadrid.com/datos_practicos.php');
+    let page = await JSDOM.fromURL('');
     const dom = page.window.document;
 
     let districts = dom.querySelectorAll('span.Estilo16,span.Estilo18');
